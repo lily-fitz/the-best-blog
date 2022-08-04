@@ -313,7 +313,7 @@ ul {
   border-left: solid var(--black) 3px;
   border-right: solid var(--black) 3px;
   font-family: var(--ff-accent);
-  background-color: white;
+  background-color: #ffffff54;
   /* background-image: linear-gradient(
     to right,
     rgba(0, 179, 255, 0.192),
@@ -414,6 +414,8 @@ ul {
 
 .posts-page__card-title {
   border-radius: 20px;
+  /* font-family: var(--ff-accent);
+  font-weight: 700; */
 }
 
 /*-----------------------------*/
@@ -526,7 +528,7 @@ ul {
   position: relative;
   display: grid;
   gap: 2rem;
-  background-color: white;
+  background-color: #ffffffb5;
   border-radius: 30px;
   padding: 3rem;
   margin-top: 4rem;

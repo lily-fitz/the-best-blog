@@ -25,7 +25,7 @@ export default function About() {
       .catch((err) => console.error(err))
   }, [])
 
-  if (!author) return <div>Loading...</div>
+  if (!author) return <div className='container'>Loading...</div>
 
   return (
     <main className='about-main container section'>

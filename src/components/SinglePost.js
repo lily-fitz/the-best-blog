@@ -39,7 +39,7 @@ export default function SinglePost() {
       .catch((err) => console.error(err))
   }, [slug])
 
-  if (!singlePost) return <div>Loading....</div>
+  if (!singlePost) return <div className='container'>Loading....</div>
 
   return (
     <main className=' single-post-section'>
