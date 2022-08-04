@@ -97,7 +97,7 @@ ul {
 @media only screen and (max-width: 44rem) {
   .section {
     width: min(calc(100%-2rem), 74rem);
-    padding-inline: 2rem;
+    padding-inline: 0.75rem;
   }
 }
 
@@ -234,6 +234,10 @@ ul {
 }
 
 @media only screen and (min-width: 56rem) {
+  .nav-logo {
+    padding-inline: 1.25rem;
+  }
+
   .nav-primary {
     display: flex;
     justify-content: space-between;
