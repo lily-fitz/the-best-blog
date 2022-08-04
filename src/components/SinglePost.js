@@ -1,8 +1,12 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 import sanityClient from '../client.js'
 import BlockContent from '@sanity/block-content-to-react'
 import imageUrlBuilder from '@sanity/image-url'
+import { FaFacebook } from 'react-icons/fa'
+import { FaTwitter } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
 
 const builder = imageUrlBuilder(sanityClient)
 function urlFor(source) {
@@ -40,7 +44,42 @@ export default function SinglePost() {
   return (
     <main className=' single-post-section'>
       <article className='section post-article'>
-        <div className='post-share'>socials</div>
+        <div className='post-share'>
+          <div className='post-share-inner'>
+            S<br />
+            H<br />
+            A<br />
+            R<br />
+            E<br />
+            <Link to='#' className='social-link'>
+              <FaFacebook
+                style={{
+                  color: '#9d2cfe',
+                  fontSize: '20px',
+                  cursor: 'pointer',
+                }}
+              />{' '}
+            </Link>
+            <Link to='#' className='social-link'>
+              <FaTwitter
+                style={{
+                  color: '#9d2cfe',
+                  fontSize: '20px',
+                  cursor: 'pointer',
+                }}
+              />{' '}
+            </Link>
+            <Link to='#' className='social-link'>
+              <FaLinkedin
+                style={{
+                  color: '#9d2cfe',
+                  fontSize: '20px',
+                  cursor: 'pointer',
+                }}
+              />{' '}
+            </Link>
+          </div>
+        </div>
         <div className='the-post'>
           <header>
             <h1 className='post-title'>{singlePost.title}</h1>
@@ -49,7 +88,7 @@ export default function SinglePost() {
                 src={urlFor(singlePost.authorImage).url()}
                 alt={singlePost.authorName}
               />
-              <p>{singlePost.authorName}</p>
+              <p>Written By {singlePost.authorName}</p>
             </div>
 
             <img
