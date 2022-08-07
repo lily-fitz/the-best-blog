@@ -23,7 +23,7 @@ export default function NavBar() {
           <div className='nav-top_search'>
             <p className='takecare'>"take care of yourself"</p>
             {/* <img src={search} alt='search' className='search' /> */}
-            <GoSearch style={{ fontSize: '20px', cursor: 'pointer' }} />
+            {/* <GoSearch style={{ fontSize: '20px', cursor: 'pointer' }} /> */}
           </div>
         </div>
 
