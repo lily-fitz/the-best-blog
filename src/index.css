@@ -552,6 +552,8 @@ ul {
 .about-section p {
   margin-block-start: 1rem;
   padding-right: 10px;
+  font-weight: 500;
+  line-height: 1.8;
 }
 
 .about-author_img {
