@@ -32,25 +32,20 @@ export default function About() {
       {/* <img src={aboutBG} alt='' className='about-bg_img' /> */}
       <section className='about-section'>
         <div>
-          <img
-            src={urlFor(author.authorImage).url()}
-            alt='Lily'
-            className='about-author_img'
-          />
-        </div>
-
-        <div>
           <h1 className='author-name'>
             Hi! I'm {''}
             {author.name}
           </h1>
           <div className='author-content'>
-            <BlockContent
-              blocks={author.bio}
-              projectId='c0frex4s'
-              dataset='production'
-            />
+            <BlockContent blocks={author.bio} projectId='c0frex4s' dataset='production' />
           </div>
+        </div>
+        <div>
+          <img
+            src={urlFor(author.authorImage).url()}
+            alt='Lily'
+            className='about-author_img'
+          />
         </div>
       </section>
     </main>
