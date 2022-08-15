@@ -1,6 +1,6 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 // import search from '../imgs/search.svg'
-import { GoSearch } from 'react-icons/go'
+//import { GoSearch } from 'react-icons/go'
 import { FaInstagram } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
 
@@ -45,8 +45,8 @@ export default function NavBar() {
           <div className='nav-trending'>
             <p className='trending'>Trending&nbsp;Now</p>
             <p className='trending-topics'>
-              Smoothies Are Nutrient Dense &amp; Filling | 11-Workouts in 11
-              Days | Chic Summer Style Like Fashions Best
+              Smoothies Are Nutrient Dense &amp; Filling | 11-Workouts in 11 Days | Chic
+              Summer Style Like Fashions Best
             </p>
           </div>
         </div>
