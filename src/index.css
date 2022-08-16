@@ -291,6 +291,7 @@ ul {
   font-size: 13px;
   font-style: italic;
   max-height: 38px;
+  margin-top: -1px;
 }
 
 .trending-topics {
