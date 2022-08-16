@@ -30,9 +30,7 @@ const Posts = () => {
           <h1 className='posts-page-title'>
             <span className='post-title-color'>New Recipes!</span>
           </h1>
-          <h2 className='posts-page-tagline'>
-            the best recipes from the best blog !
-          </h2>
+          <h2 className='posts-page-tagline'>the best recipes from the best blog !</h2>
         </div>
 
         {/* <p className='post-title-divider'>
