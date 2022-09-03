@@ -40,12 +40,13 @@ body {
   font-size: 14px;
   color: white;
   -webkit-font-smoothing: antialiased;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     180deg,
     rgba(123, 0, 255, 1),
     rgb(255, 146, 248, 1),
     rgba(255, 140, 0, 1)
-  );
+  ); */
+  background-image: linear-gradient(180deg, rgba(123, 0, 255, 1), rgb(152, 114, 255));
   min-height: 100vh;
 }
 
@@ -118,7 +119,7 @@ ul {
 /*-----------------------------*/
 
 .topbar {
-  background-color: var(--primary);
+  background: linear-gradient(140deg, #7b0bfe, #7c0bff);
   color: white;
   display: flex;
   align-items: center;
