@@ -375,10 +375,10 @@ ul {
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 56px;
   text-transform: capitalize;
   /* letter-spacing: 6px; */
-  font-family: var(--ff-accent);
+  /* font-family: var(--ff-accent); */
 }
 
 /* .post-title-divider span {
