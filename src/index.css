@@ -372,10 +372,11 @@ ul {
 } */
 
 .posts-page-tagline {
-  font-size: var(--fs-h6);
+  font-size: 16px;
+  font-weight: 600;
   margin-top: 10px;
   margin-bottom: 60px;
-  text-transform: lowercase;
+  text-transform: capitalize;
   /* letter-spacing: 6px; */
   font-family: var(--ff-accent);
 }
