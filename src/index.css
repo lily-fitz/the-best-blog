@@ -323,11 +323,11 @@ ul {
 .posts-page-title {
   display: inline-block;
   font-size: var(--fs-h3);
-  padding: 10px 26px 13px;
+  padding: 10px 26px 3px;
   border: solid var(--white) 0px;
   font-family: var(--ff-accent);
   border-radius: 14px;
-  background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.285), #ffffff1d);
+  /* background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.285), #ffffff1d); */
   /* background-image: linear-gradient(
     to right,
     rgba(0, 179, 255, 0.192),
@@ -376,7 +376,7 @@ ul {
   margin-top: 10px;
   margin-bottom: 60px;
   text-transform: lowercase;
-  letter-spacing: 6px;
+  /* letter-spacing: 6px; */
   font-family: var(--ff-accent);
 }
 
