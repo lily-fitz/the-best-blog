@@ -659,5 +659,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+}
+
+footer h6 {
   font-size: 14px;
 }
