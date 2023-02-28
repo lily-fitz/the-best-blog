@@ -653,7 +653,8 @@ ul {
 
 footer {
   /* text-align: center; */
-  margin-top: 26px;
+  margin-top: 6px;
+  padding: .5rem 4.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
