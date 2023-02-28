@@ -402,7 +402,8 @@ ul {
   }
 }
 
-.posts-page__card-img-container {
+.posts-page__
+-img-container {
   display: block;
   position: relative;
   border-radius: 10px;
@@ -429,9 +430,9 @@ ul {
 
 .posts-page__card-title {
   border-radius: 20px;
-  font-family: var(--ff-accent);
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
 }
 
 /*-----------------------------*/
