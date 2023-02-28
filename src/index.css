@@ -323,7 +323,7 @@ ul {
 .posts-page-title {
   display: inline-block;
   font-size: var(--fs-h3);
-  padding: 10px 26px 43px;
+  padding: 10px 26px 53px;
   border: solid var(--white) 0px;
   font-family: var(--ff-accent);
   border-radius: 14px;
