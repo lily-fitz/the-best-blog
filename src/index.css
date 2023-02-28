@@ -652,6 +652,10 @@ ul {
 /*-----------------------------*/
 
 footer {
-  text-align: center;
-  margin-top: 180px;
+  /* text-align: center; */
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
